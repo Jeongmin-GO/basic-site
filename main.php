@@ -7,7 +7,7 @@
                 <ul>
 <!-- 최근 게시 글 DB에서 불러오기 -->
 <?php
-    $con = mysqli_connect("localhost", "user1", "12345", "sample");
+    $con = mysqli_connect("localhost", "copycat", "wotn0154!", "copy");
     $sql = "select * from board order by num desc limit 5";
     $result = mysqli_query($con, $sql);
 
